@@ -1,2 +1,2 @@
-# test-rest-seed-123
-my new project
+# spring-rest-seed
+an Atomist seed project

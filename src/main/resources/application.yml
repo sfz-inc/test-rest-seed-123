@@ -1,0 +1,10 @@
+logging:
+  level:
+    com.atomist.spring.agent: INFO
+atomist:
+  enabled: true
+  debug: true
+  url: 'https://webhook.atomist.com/atomist/application/teams/T489LV5QF'
+  environment:
+    domain: '${DOMAIN:development}'
+    pod: '${HOSTNAME:${random.value}}'
